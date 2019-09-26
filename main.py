@@ -20,10 +20,9 @@ def translate():
     data2 = response2.json()
     jpn_text = data1['text']
     ko_text = data2['text']
-    print(f"The word you wanted to translate: {text}")
-    print(u'\U0001F439')
-    print(u'\U0001F1EF\U0001F1F5',f"Japanese: {jpn_text}")
-    print(u":flag_for_South_Korea:",f"Korean: {ko_text}")
+    print(u"\U0001F1FA\U0001F1F8",[f"{text}"])
+    print(u'\U0001F1EF\U0001F1F5',f"{jpn_text}")
+    print(u"\U0001F1F0\U0001F1F7",f"{ko_text}")
     text2 = input("Did you want to translate again (y/n):")
     if text2 == 'y':
         translate()
