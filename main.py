@@ -7,6 +7,7 @@ import emoji
 
 
 
+
 def translate():
     print("Welcome to KoJa Translation!")
     text = input("Please enter a word or phrase in English:")
@@ -20,8 +21,9 @@ def translate():
     jpn_text = data1['text']
     ko_text = data2['text']
     print(f"The word you wanted to translate: {text}")
-    print(f"Japanese: {jpn_text}")
-    print(f"Korean: {ko_text}")
+    print(u'\U0001F439')
+    print(u'\U0001F1EF\U0001F1F5',f"Japanese: {jpn_text}")
+    print(u":flag_for_South_Korea:",f"Korean: {ko_text}")
     text2 = input("Did you want to translate again (y/n):")
     if text2 == 'y':
         translate()
