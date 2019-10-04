@@ -30,5 +30,5 @@ export SECRET_KEY="mysecretkey"
  
 Run the app from the command line.
 ```
-$ 
+$ translate
 ```
