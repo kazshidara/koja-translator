@@ -1,6 +1,6 @@
 # KoJa Translator 
 
-A command line tool that translates any English word or phrase into Japanese and Korean 
+A command line tool that translates any English word or phrase into Japanese and Korean. Type in a word in English and have the program output both the Japanese and Korean translation!
 
 ## Tech Stack
 
